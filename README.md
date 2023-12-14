@@ -11,10 +11,9 @@ Follow these steps to setup Natnet:
 5. $ make -f makefile
 6. $ cd build
 7. $ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:~/NatNet/NatNet_SDK_4.0/lib
-   or to add it in bashrc 
-7.1 $ echo -n "export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:~/NatNet/NatNet_SDK_3.0/lib" >> ~/.bashrc
+8. $ echo -n "export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:~/NatNet/NatNet_SDK_3.0/lib" >> ~/.bashrc
 
-8. Verfiy that you can listen to data
+9. Verfiy that you can listen to data
    $ ./SampleClient
 
 Remember in the CMakelists.txt, library linked via: 
