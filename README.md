@@ -11,7 +11,7 @@ Follow these steps to setup Natnet:
 5. $ make -f makefile
 6. $ cd build
 7. $ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:~/NatNet/NatNet_SDK_4.0/lib
-   or to add it in bashrc:
+   or to add it in bashrc 
    $ echo -n "export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:~/NatNet/NatNet_SDK_3.0/lib" >> ~/.bashrc
 8. Verfiy that you can listen to data
    $ ./SampleClient
