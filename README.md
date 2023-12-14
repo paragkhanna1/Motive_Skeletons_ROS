@@ -16,6 +16,8 @@ Follow these steps to setup Natnet:
 9. Verfiy that you can listen to data
    $ ./SampleClient
 
+
+Put mocap_skeleton in your ws/src. <br/>
 Remember in the CMakelists.txt, library linked via: <br/>
 _add_executable(mocap_client_global_coordinate src/mocap_client_global_coordinate.cpp)
 target_link_libraries(mocap_client_global_coordinate ${catkin_LIBRARIES} ~/NatNet/NatNet_SDK_4.0/lib/libNatNet.so)
