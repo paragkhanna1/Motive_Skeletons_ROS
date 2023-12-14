@@ -22,10 +22,10 @@ target_link_libraries(mocap_client_global_coordinate ${catkin_LIBRARIES} ~/NatNe
 _
 (Change if needed)
 
-For global skeleton coordinates in the Motive application use:
+For global skeleton coordinates in the Motive application use \n
 $ rosrun mocap_skeleton mocap_client_global_coordinate
 
-For local skeleton coordinates in the Motive application use:
+For local skeleton coordinates in the Motive application use \n
 $ rosrun mocap_skeleton mocap_client_local_coordinate
 
 
