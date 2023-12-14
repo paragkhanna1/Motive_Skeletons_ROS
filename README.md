@@ -1,8 +1,8 @@
 # Motive_Skeletons_ROS
 Repo with a ROS1-package for getting skeleton data from Motive-Optitrack mocap application to ROS-1
 
-Compatible with Natnet 4.0.0 , download here: https://optitrack.com/support/downloads/developer-tools.html
-In the Motive application, change transmission type to "Unicast" in View:Data Streaming Pane
+Compatible with Natnet 4.0.0 , download here: https://optitrack.com/support/downloads/developer-tools.html <br/>
+In the Motive application, change transmission type to "Unicast" in View:Data Streaming Pane <br/>
 
 Follow these steps to setup Natnet:
 1. $ mkdir ~/NatNet
